@@ -72,6 +72,7 @@ export class DataService<T> {
   private getServerErrorMessage(error: HttpErrorResponse): string {
     switch (error.status) {
       case 404: {
+        console.log('Here is the errrr 404 404');
         return `Not Found:${error.message}`;
         // here return type possible to be "not found class" that you can create
         // or navigate to NotFound component

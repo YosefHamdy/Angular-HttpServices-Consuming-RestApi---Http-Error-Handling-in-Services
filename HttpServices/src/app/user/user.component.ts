@@ -29,10 +29,10 @@ export class UserComponent implements OnInit {
 
         console.log(this.dataSource);
         // error handling in component
-      },
+      } /*,
       (error) => {
         console.error('Service unavailble in user');
-      }
+      }*/
     );
   }
 
